@@ -5,3 +5,9 @@
 + kotlin
 + rxjava
 + welcome to home
++ dispatchTouchEvent
++ Tablayout
++ ViewCompat
++ TransitionAnimtion
++ SimpleDateFormat
++ 
