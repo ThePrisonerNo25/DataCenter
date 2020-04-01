@@ -1,5 +1,11 @@
 # 跳转到联系人列表 获取联系人
+添加权限
+```
+<uses-permission android:name="android.permission.READ_CONTACTS" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
 
+代码
 ```
 class TestActivity6 : AppCompatActivity(){
 
