@@ -9,7 +9,7 @@
   ],
   "logEnabled": false,
   "loglevel": "warning",
-  "index": 0,
+  "index": 2,
   "vmess": [
     {
       "configVersion": 2,
@@ -26,7 +26,43 @@
       "streamSecurity": "",
       "allowInsecure": "",
       "configType": 1,
-      "testResult": "44ms",
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "chaoming25.tk",
+      "port": 443,
+      "id": "d7478969-87b0-4f15-85c0-08e0d2319f82",
+      "alterId": 233,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "34.92.132.139",
+      "port": 16810,
+      "id": "6044748c-9700-d3b5-1b43-697a5655c8dc",
+      "alterId": 77,
+      "security": "aes-128-gcm",
+      "network": "tcp",
+      "remarks": "hongkong",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "8ms",
       "subid": ""
     }
   ],
