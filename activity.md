@@ -3,9 +3,9 @@
 Activity 是Android提供的四大组件之一，是进行开发必不可少的组件。Activity 是一个界面的载体——每个Activity都会获得一个用于绘制其用户界面的窗口（组合多种控件）。用户可与其提供的窗口进行交互，以执行拨打电话、拍摄照片、发送电子邮件或查看地图等操作。
 
 ## 生命周期
-![Acttivity生命周期](activityLifecycle.png)
+![Acttivity生命周期](image/activityLifecycle.png)
 
-![生命周期详解](activityLifecycleDetail.png)
+![生命周期详解](image/activityLifecycleDetail.png)
 
 
 ### 知识点

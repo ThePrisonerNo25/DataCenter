@@ -44,7 +44,7 @@
       "streamSecurity": "",
       "allowInsecure": "",
       "configType": 1,
-      "testResult": "18ms",
+      "testResult": "7ms",
       "subid": ""
     }
   ],
