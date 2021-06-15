@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/shape_simecircle_solid_c16_white"
+    android:layout_marginStart="53dp"
+    android:layout_marginEnd="53dp">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="16sp"
+        android:textColor="@color/color_txt_main1"
+        android:textStyle="bold"
+        tools:text="提示"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+    <View
+        android:id="@+id/v_h"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/color_bg_main3"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:minHeight="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_h"
+        tools:text="检测到您的场馆,还没有添加私教课程，请联系您的教练经理进行添加"
+        android:textSize="12sp"
+        android:textColor="@color/color_txt_main1"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:id="@+id/v_h1"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content"
+        android:background="@color/color_bg_main3"
+        android:layout_marginTop="22dp"
+        />
+
+    <View
+        android:id="@+id/v_v"
+        android:layout_width="0.5dp"
+        android:layout_height="44dp"
+        android:background="@color/color_bg_main3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_h1"
+        />
+
+    <TextView
+        android:id="@+id/tv_negative"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        tools:text="取消"
+        android:textSize="16sp"
+        android:textColor="@color/color_txt_main3"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tv_positive"
+        app:layout_constraintTop_toTopOf="@+id/v_v"
+        app:layout_constraintBottom_toBottomOf="@+id/v_v"
+        />
+
+    <TextView
+        android:id="@+id/tv_positive"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        tools:text="确定"
+        android:textSize="16sp"
+        android:textColor="@color/color_main"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@+id/tv_negative"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/v_v"
+        app:layout_constraintBottom_toBottomOf="@+id/v_v"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -32,14 +32,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "34.92.16.123",
-            "port": 13931,
+            "address": "34.92.15.1",
+            "port": 13980,
             "users": [
               {
-                "id": "de553c72-439a-d38e-339e-28f4b9c900c5",
-                "alterId": 101,
+                "id": "37bbe415-b5f7-f3bb-c0b7-5041d917a6a5",
+                "alterId": 110,
                 "email": "t@t.tt",
-                "security": "none"
+                "security": "aes-128-gcm"
               }
             ]
           }
