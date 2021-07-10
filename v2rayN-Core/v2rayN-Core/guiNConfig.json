@@ -32,8 +32,8 @@
     {
       "configVersion": 2,
       "address": "34.92.15.1",
-      "port": 13980,
-      "id": "37bbe415-b5f7-f3bb-c0b7-5041d917a6a5",
+      "port": 1398,
+      "id": "37bbe415-b5f7-f3bb-c0b7-5041d917a6aa",
       "alterId": 110,
       "security": "aes-128-gcm",
       "network": "tcp",
@@ -44,7 +44,7 @@
       "streamSecurity": "",
       "allowInsecure": "",
       "configType": 1,
-      "testResult": "237ms",
+      "testResult": "234ms",
       "subid": ""
     }
   ],
@@ -63,7 +63,7 @@
     "readBufferSize": 2,
     "writeBufferSize": 2
   },
-  "sysAgentEnabled": false,
+  "sysAgentEnabled": true,
   "listenerType": 1,
   "urlGFWList": null,
   "allowLANConn": false,
